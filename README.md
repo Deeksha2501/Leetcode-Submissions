@@ -40,6 +40,7 @@
 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1512 | [Number of good pairs](https://leetcode.com/problems/number-of-good-pairs/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1590 | [Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p) | ![#f03c15](https://via.placeholder.com/12/f03c15/f03c15?text=+) &nbsp; Not Accepted</br>
 1624  | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
