@@ -2,6 +2,7 @@
 
 | Problem No. | Problem | Status
 |----------|-------------|------|
+3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 15 | [3Sum](https://leetcode.com/problems/3sum/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
