@@ -9,6 +9,7 @@
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 136 | [Single Number](https://leetcode.com/problems/single-number/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 139 | [Word Break](https://leetcode.com/problems/word-break/) | ![#f03c15](https://via.placeholder.com/12/f03c15/f03c15?text=+) &nbsp; Not Accepted</br>
@@ -48,7 +49,7 @@
 1640 | [Check Array Formation Through Concatenation ](https://leetcode.com/problems/check-array-formation-through-concatenation) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1652 | [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1656| [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
-∞ | Numbers :) | ![#169c43](https://via.placeholder.com/15/169c43/169c43?text=+) 39 &nbsp;&nbsp;![#f03c15](https://via.placeholder.com/15/f03c15/f03c15?text=+) 5 
+∞ | Numbers :) | ![#169c43](https://via.placeholder.com/15/169c43/169c43?text=+) 42 &nbsp;&nbsp;![#f03c15](https://via.placeholder.com/15/f03c15/f03c15?text=+) 5 
 
 
 
