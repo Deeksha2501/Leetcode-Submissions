@@ -83,9 +83,5 @@
 1827| [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1832| [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1833| [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
-
-
 ∞ | Numbers :) | ![#169c43](https://via.placeholder.com/15/169c43/169c43?text=+) 81 &nbsp;&nbsp;![#f03c15](https://via.placeholder.com/15/f03c15/f03c15?text=+) 5 
-
-
 
