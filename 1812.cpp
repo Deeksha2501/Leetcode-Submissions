@@ -6,3 +6,5 @@ public:
         return ((x+y)%2 == 1)?true:false;
     }
 };
+
+
