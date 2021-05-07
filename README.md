@@ -8,6 +8,7 @@
 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 15 | [3Sum](https://leetcode.com/problems/3sum/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+27 | [Remove element](https://leetcode.com/problems/remove-element/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
@@ -34,6 +35,7 @@
 495 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 630 | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 763 | [Partition Labels](https://leetcode.com/problems/partition-labels) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
@@ -44,6 +46,7 @@
 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 949 | [Largest Time for given Digits](https://leetcode.com/problems/largest-time-for-given-digits) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1037 | [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
@@ -57,6 +60,7 @@
 1476 | [Subrectangle Queries  ](https://leetcode.com/problems/subrectangle-queries) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1512 | [Number of good pairs](https://leetcode.com/problems/number-of-good-pairs/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1529 | [Bulb Switcher IV](https://leetcode.com/problems/bulb-switcher-iv/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
@@ -73,15 +77,19 @@
 1672| [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1684| [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1688| [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+1701| [Average Waiting Time](https://leetcode.com/problems/average-waiting-time/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1725| [Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+1726| [Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1768| [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+1769| [Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1773| [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1790| [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1796| [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1816| [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1822| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+1823| [Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1827| [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1832| [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1833| [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
-∞ | Numbers :) | ![#169c43](https://via.placeholder.com/15/169c43/169c43?text=+) 81 &nbsp;&nbsp;![#f03c15](https://via.placeholder.com/15/f03c15/f03c15?text=+) 5 
+∞ | Numbers :) | ![#169c43](https://via.placeholder.com/15/169c43/169c43?text=+) 89 &nbsp;&nbsp;![#f03c15](https://via.placeholder.com/15/f03c15/f03c15?text=+) 5 
 
