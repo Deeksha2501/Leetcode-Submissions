@@ -19,11 +19,13 @@
 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 136 | [Single Number](https://leetcode.com/problems/single-number/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 139 | [Word Break](https://leetcode.com/problems/word-break/) | ![#f03c15](https://via.placeholder.com/12/f03c15/f03c15?text=+) &nbsp; Not Accepted</br>
 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 179 | [Largest Number](https://leetcode.com/problems/largest-number) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 189 | [Rotate Array](https://leetcode.com/problems/rotate-array) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+204 | [Count Primes](https://leetcode.com/problems/count-primes/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 216 | [Combinational Sum III](https://leetcode.com/problems/combination-sum-iii) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 220 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate-iii) | ![#f03c15](https://via.placeholder.com/12/f03c15/f03c15?text=+) &nbsp; Not Accepted</br>
 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
@@ -50,6 +52,7 @@
 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1037 | [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1154 | [Day of the Year](https://leetcode.com/problems/day-of-the-year) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1290 | [Convert Binary Number in a Linked List to Integer ](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
@@ -59,8 +62,10 @@
 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1476 | [Subrectangle Queries  ](https://leetcode.com/problems/subrectangle-queries) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+1508 | [Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1512 | [Number of good pairs](https://leetcode.com/problems/number-of-good-pairs/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1529 | [Bulb Switcher IV](https://leetcode.com/problems/bulb-switcher-iv/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
