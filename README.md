@@ -29,13 +29,16 @@
 216 | [Combinational Sum III](https://leetcode.com/problems/combination-sum-iii) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 220 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate-iii) | ![#f03c15](https://via.placeholder.com/12/f03c15/f03c15?text=+) &nbsp; Not Accepted</br>
 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 389 | [Find the difference](https://leetcode.com/problems/find-the-difference) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 495 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 630 | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
@@ -44,6 +47,7 @@
 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 804 | [Unique Morse Words](https://leetcode.com/problems/unique-morse-code-words) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 835 | [Image Overlap](https://leetcode.com/problems/image-overlap) | ![#f03c15](https://via.placeholder.com/12/f03c15/f03c15?text=+) &nbsp; Not Accepted</br>
+856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | ![#f03c15](https://via.placeholder.com/12/f03c15/f03c15?text=+) &nbsp; Not Accepted</br>
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | ![#f03c15](https://via.placeholder.com/12/f03c15/f03c15?text=+) &nbsp; Not Accepted</br>
 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
@@ -66,6 +70,7 @@
 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1508 | [Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+1509 | [Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1512 | [Number of good pairs](https://leetcode.com/problems/number-of-good-pairs/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1529 | [Bulb Switcher IV](https://leetcode.com/problems/bulb-switcher-iv/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
@@ -87,6 +92,7 @@
 1725| [Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1726| [Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1732| [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
+1764| [Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1768| [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1769| [Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1773| [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
@@ -102,5 +108,5 @@
 1833| [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1837| [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
 1839| [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | ![#169c43](https://via.placeholder.com/12/169c43/169c43?text=+) &nbsp; Accepted</br>
-∞ | Numbers :) | ![#169c43](https://via.placeholder.com/15/169c43/169c43?text=+) 100 &nbsp;&nbsp;![#f03c15](https://via.placeholder.com/15/f03c15/f03c15?text=+) 5 
+∞ | Numbers :) | ![#169c43](https://via.placeholder.com/15/169c43/169c43?text=+) 108 &nbsp;&nbsp;![#f03c15](https://via.placeholder.com/15/f03c15/f03c15?text=+) 5 
 
