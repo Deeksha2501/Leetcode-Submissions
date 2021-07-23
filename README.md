@@ -240,7 +240,6 @@
 1315 | [Sum of nodes with even valued grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent)
 1323 | [Maximum 68 number](https://leetcode.com/problems/maximum-69-number)
 1325 | [Delete leaves with a given value](https://leetcode.com/problems/delete-leaves-with-a-given-value)
-
 1365 | [How Many Numbers Are Smaller Than the Current Number ](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number) 
 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies) 
 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) 
