@@ -174,6 +174,7 @@
 824 | [Goat Latin](https://leetcode.com/problems/goat-latin/) 
 838 | [Push Dominoes](https://leetcode.com/problems/push-dominoes)
 841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)
+844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 845 | [Longest mountain in an array](https://leetcode.com/problems/longest-mountain-in-array)
 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)
 861 | [Score after flipping matrix](https://leetcode.com/problems/score-after-flipping-matrix)
