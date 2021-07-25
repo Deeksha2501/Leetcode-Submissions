@@ -301,5 +301,5 @@
 1941| [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)
 1942| [The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/)
 1943| [Describe the painting](https://leetcode.com/problems/describe-the-painting/)
-∞ | Total - 331/1940
+
 
