@@ -1,3 +1,16 @@
+class Solution {
+public:
+
+bool repeatedSubstringPattern(string s) {      
+    return (s + s).substr(1, 2*s.size()-2).find(s) != -1;
+}
+};
+
+
+
+//old approach
+
+
 #include<bits/stdc++.h>
 #include<string.h>
 #include<vector>
@@ -77,4 +90,6 @@ cout<<repeatedSubstringPattern(str);
 
 return 0;
 }
+
+
 
