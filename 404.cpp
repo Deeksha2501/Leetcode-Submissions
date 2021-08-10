@@ -9,6 +9,26 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+class Solution {
+public:
+    int dfs(TreeNode* root , bool dir){
+        if(root == NULL)return 0;
+        if(dir){
+            if(root->left == NULL && root->right == NULL)return root->val;
+            else{
+                return dfs(root->left , true) + dfs(root->right , false);
+            }
+        }else{
+            return dfs(root->left , true) + dfs(root->right , false);
+        }  
+    }
+        
+    
+    int sumOfLeftLeaves(TreeNode* root) {
+        return dfs(root->left , true) + dfs(root->right , false);
+    }
+};
+
 
 class Solution {
 public:

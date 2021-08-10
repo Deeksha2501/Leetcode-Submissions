@@ -1,6 +1,36 @@
 class Solution {
 public:
     int calPoints(vector<string>& ops) {
+        stack<int> st;
+        for(string s : ops){
+            if(isdigit(s.back())){
+                st.push(stoi(s));
+            }else if(!st.empty()){
+                if(s == "+"){
+                    int a = st.top();st.pop();
+                    int b = st.top();
+                    st.push(a);
+                    st.push(a+b);
+                }else if(s == "D"){
+                    int a = st.top(); 
+                    st.push(2*a);
+                }else{
+                    st.pop();
+                }
+            }
+        }
+        int sum=0;
+        while(!st.empty()){
+            sum += st.top();st.pop();
+        }
+        return sum;
+    }
+};
+
+
+class Solution {
+public:
+    int calPoints(vector<string>& ops) {
         stack<int> s;
         for(int i=0 ; i<ops.size() ; i++){
             if(!s.empty() && ops[i] == "C"){

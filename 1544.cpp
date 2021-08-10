@@ -1,3 +1,24 @@
+class Solution {
+public:
+    
+    string makeGood(string s) {
+        stack<char> st;
+        for(char c : s){
+            if(st.empty() || abs(st.top() - c) != 32)st.push(c);
+            else if(abs(st.top() - c) == 32)st.pop();
+        }
+        string res="";
+        while(!st.empty()){
+            res += st.top();
+            st.pop();
+        }
+        reverse(res.begin() , res.end());
+        return res;
+    }
+};
+
+
+
 #include<bits/stdc++.h>
 #include<string.h>
 #include<vector>

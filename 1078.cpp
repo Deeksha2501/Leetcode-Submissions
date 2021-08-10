@@ -1,6 +1,25 @@
 class Solution {
 public:
     vector<string> findOcurrences(string text, string first, string second) {
+        istringstream ss(text);
+        string word; 
+        vector<string> w;
+        while (ss >> word) {
+            w.push_back(word);   
+        }
+        vector<string> res;
+        for(int i=2 ; i<w.size() ; i++){
+            if(w[i-1] == second && w[i-2] == first){
+                res.push_back(w[i]);
+            }
+        }
+        return res;
+    }
+};
+
+class Solution {
+public:
+    vector<string> findOcurrences(string text, string first, string second) {
         int i=0;
         string curr="";
         bool flag = false;

@@ -1,36 +1,22 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * struct TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
  */
 class Solution {
-    int min=Integer.MAX_VALUE;
-    public int minDiffInBST(TreeNode root) {
-        dfs(root);
-        return min;
+public:
+    int res = INT_MAX, pre = -1;
+    int minDiffInBST(TreeNode* root) {
+        if (root->left != NULL) minDiffInBST(root->left);
+        if (pre >= 0) res = min(res, root->val - pre);
+        pre = root->val;
+        if (root->right != NULL) minDiffInBST(root->right);
+        return res;
     }
-    public void dfs(TreeNode node){
-        if(node==null)return;
-        if(node.left==null && node.right==null)return;
-        if(node.left!=null){
-            min=Math.min(min,node.val-node.left.val);
-            System.out.println("comparing " + node.val + " and " + node.left.val);
-            dfs(node.left);
-        }
-        if(node.right!=null){
-            min=Math.min(min,node.right.val-node.val);
-            System.out.println("comparing " + node.val + " and " + node.right.val);
-            dfs(node.right);
-        }
-    }
-}
+};
