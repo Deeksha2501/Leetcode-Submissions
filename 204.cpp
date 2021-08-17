@@ -13,8 +13,10 @@ public:
     //     return true;
     // }
     
-    int countPrimes(int n) {
+    vector<int> countPrimes(int n) {
         bool primes[n+1];
+        vector<int> res;
+        res.push_back(1);
         for(int i=0 ; i<n+1 ; i++){
             primes[i] = false;
         }
@@ -22,12 +24,12 @@ public:
         int count=0;
         for(int i=2 ; i<n ; i++){
             if(primes[i] == false){
-                count++;
+                if(i%10 == 3)res.push_back(res);
                 for(int j = 2; i*j < n ; j++){
                     primes[j*i] = true;
                 }
             }
         }
-        return count;
+        return res;
     }
 };
