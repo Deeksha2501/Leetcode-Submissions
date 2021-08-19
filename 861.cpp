@@ -1,5 +1,45 @@
 class Solution {
 public:
+    int matrixScore(vector<vector<int>>& grid) {
+        int n = grid.size();
+        int m = grid[0].size();
+        for(int i=0 ; i<n ; i++){
+            if(grid[i][0] == 0){
+                for(int j=0 ; j<m ; j++){
+                    grid[i][j] = !grid[i][j];
+                }
+            }
+        }
+        
+        for(int j=0 ; j<m ; j++){
+            int cnt=0;
+            for(int i=0 ; i<n ; i++){
+                if(grid[i][j])cnt++;
+            }
+            // cout<<"\ncnt = "<<cnt;
+            int limit = n/2;
+            if(n%2)limit++;
+            if(cnt < limit){
+                for(int i=0 ; i<n ; i++){
+                    grid[i][j] = !grid[i][j];
+                }
+            }
+        }
+        int sum=0;
+        for(int i=0 ; i<n ; i++){
+            int num = 0;
+            for(int j=m-1 ; j>=0 ; j--){
+                num += pow(2 , (m-1-j))*grid[i][j];
+            }
+            sum += num;
+        }
+        return sum;
+    }
+};
+
+
+class Solution {
+public:
     int matrixScore(vector<vector<int>>& g) {
         int n = g.size();
         int m = g[0].size();
