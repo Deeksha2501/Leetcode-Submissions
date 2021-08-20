@@ -26,6 +26,7 @@
 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) 
 35 | []()
+36 | []()
 39 | []()
 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) 
 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) 
@@ -149,6 +150,7 @@
 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) 
 303 | []()
 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) 
+318 | []()
 322 | [Coin change](https://leetcode.com/problems/coin-change)
 326 | []()
 328 | [Odd even linked list](https://leetcode.com/problems/odd-even-linked-list)
@@ -367,6 +369,7 @@
 1221 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) 
 1227 | [Airplane seat assignment probability](https://leetcode.com/problems/airplane-seat-assignment-probability)
 1228 | []()
+1238 | []()
 1260 | []()
 1261 | [Find elements in a contaminated binary tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree)
 1277 | [Count square submatrices with all ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones)
@@ -438,6 +441,7 @@
 1725 | [Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square) 
 1726 | [Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/) 
 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) 
+1734 | []()
 1738 | []()
 1763 | []()
 1764 | [Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/) 
@@ -461,5 +465,6 @@
 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)
 1942 | [The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/)
 1943 | [Describe the painting](https://leetcode.com/problems/describe-the-painting/)
+1947 | []()
 
 
