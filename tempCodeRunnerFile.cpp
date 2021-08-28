@@ -4,16 +4,19 @@
 
 using namespace std;
 
-int main(){
-    int n=10;
-    int a,b,c;
-    a=0,b=1,c=1;
-    while(c<n){
-        b = b*c;
-        a = a + (b/c);
-        c = c+1;
+int getnext(int digits){
+    string s="";
+    s += '1';
+    for(int i=1 ; i<digits ; i++){
+        s += (to_string(digits-1));
     }
-    cout<<a;
+    int num = stoi(s);
+    return num;
+}
+
+int main(){
+
+    cout<<getnext(9);
 
    return 0;
 }

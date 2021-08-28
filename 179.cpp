@@ -1,5 +1,24 @@
 class Solution {
 public:
+    static bool cmp(int x , int y){
+        // cout<<"\ncomparing "<<x<<" and "<<y<<"\n";
+        string a = to_string(x)+to_string(y);
+        string b = to_string(y)+to_string(x);
+        return a > b;
+    }
+        
+    string largestNumber(vector<int>& nums) {
+        sort(nums.begin() , nums.end() , cmp);
+        string res="";
+        if(nums[0] == 0)return "0";
+        for(int a : nums)res += to_string(a);
+        // cout<<endl;
+        return res;
+    }
+};
+
+class Solution {
+public:
     void getVector(vector<int> nums){
         cout<<"\n";
         for(int i=0 ; i<nums.size() ; i++){
