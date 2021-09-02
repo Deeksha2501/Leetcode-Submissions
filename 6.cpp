@@ -1,3 +1,24 @@
+class Solution {
+public:
+    string convert(string s, int nums) {
+        if(nums == 1)return s;
+        
+        vector<string> rows(min(nums , int(s.length())));
+        
+        bool down = false;
+        int currRow = 0;
+        for(char c : s){
+            rows[currRow] += c;
+            if(currRow == 0 || currRow == nums-1)down = !down;
+            currRow += down ? +1 : -1;
+        }
+        string res = "";
+        for(string s : rows)res += s;
+        return res;
+    }
+};
+
+
 #include<bits/stdc++.h>
 #include<string.h>
 #include<vector>
@@ -50,5 +71,5 @@ int main(){
 // PAHNAPLSIIGYIR
 // PAHNAPLSIIGYIR
 
-PINALSIGYAHRPI
-PINALSIGYAHRPI
+// PINALSIGYAHRPI
+// PINALSIGYAHRPI
