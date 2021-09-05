@@ -1,5 +1,20 @@
 class Solution {
 public:
+    int repeatedStringMatch(string a, string b) {
+        int i=1;
+        string s(a);
+        while(s.size() < b.size()){
+            s += a;
+            i++;
+        }
+        if(s.find(b) != string :: npos)return i;
+        if((s+a).find(b) != string :: npos)return i+1;
+        return -1;
+    }
+};
+
+class Solution {
+public:
     
     string repeat(string s, int n)
     {

@@ -10,21 +10,17 @@
  * };
  */
 class Solution {
-public:
-    int sumRootToLeaf(TreeNode* root , int parent_val = 0) {
-        if(root == NULL){
-            cout<<"\nreturning value = "<<parent_val;
-            return parent_val;
+public:    
+    int dfs(TreeNode* root , int curr=0){
+        if(root == NULL)return 0;
+        curr = curr<<1 | root->val;
+        if(root->left == NULL && root->right == NULL){
+            return curr;
         }
-        root->val = root->val + (parent_val*2);
-        cout<<"\nvalue of root = "<<root->val;
-        if(root->left == NULL || root->right == NULL){
-            if(root->right == NULL){
-            return sumRootToLeaf(root->left , root->val);
-            }else{
-                return sumRootToLeaf(root->right , root->val);
-            }
-        }
-        return sumRootToLeaf(root->left , root->val) + sumRootToLeaf(root->right , root->val);
+        return dfs(root->left , curr) + dfs(root->right , curr);
+    }
+    
+    int sumRootToLeaf(TreeNode* root) {
+        return dfs(root);
     }
 };
