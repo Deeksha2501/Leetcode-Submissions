@@ -1,3 +1,32 @@
+class Solution {
+public:
+    string s;
+    int get(int i , int j , int n){
+        int cnt=0;
+        while(i >=0 && j < n){
+            if(s[i] == s[j]){
+                cnt++;
+            }else return cnt;
+            i--;
+            j++;
+        }
+        return cnt;
+    }
+    
+    int countSubstrings(string s) {
+        this->s = s;
+        int res=0;
+        int n = s.length();
+        for(int i=0 ; i<n ; i++){
+            res += get(i , i+1 , n);
+            res += get(i , i , n);
+        }
+        return res;
+    }
+};
+
+
+
 struct pair_hash {
     inline std::size_t operator()(const std::pair<int,int> & v) const {
         return v.first*31+v.second;

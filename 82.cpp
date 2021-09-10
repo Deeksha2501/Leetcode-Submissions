@@ -1,3 +1,62 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    void print(ListNode* head){
+        if(head == NULL)return;
+        cout<<head->val<<" ";
+        print(head->next);
+    }
+    
+    ListNode* deleteDuplicates(ListNode* head) {
+        if(!head || !head->next)return head;
+        ListNode*prev = new ListNode(-200);
+        prev->next = head;
+        ListNode* ans = prev;
+        ListNode* curr = head;
+        
+        unordered_set<int> s;
+        
+        while(curr){
+            int temp = -200;
+            while(curr && s.find(curr->val) != s.end()){
+                temp = curr->val;
+                curr = curr->next;
+            }
+            if(temp != 200)s.erase(temp);
+            if(!curr)break;
+            s.insert(curr->val);
+            curr = curr->next;
+        }
+        
+        curr = head;
+        while(curr != NULL){
+            if(s.find(curr->val) == s.end()){
+                ListNode* temp = curr;
+                prev->next = curr->next;
+                curr = curr->next;
+                delete(temp);
+            }else{
+                prev = curr;
+                curr= curr->next;
+            }
+        }
+        // print(ans);
+        return ans->next;
+    }
+};
+
+
+
+
 #include<bits/stdc++.h>
 
 using namespace std;

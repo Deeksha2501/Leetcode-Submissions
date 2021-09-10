@@ -11,6 +11,44 @@ public:
 
 class Solution {
 public:
+    Node* dfs(Node* head){
+        if(head == NULL)return NULL;
+        if(head->next == NULL && head->child== NULL)return head;
+        if(head->child == NULL)return dfs(head->next);
+        Node *h = head->child;
+        Node* n = head->next;
+        Node* tail = dfs(head->child);
+        head->child = NULL;
+        head->next = h;
+        h->prev = head;
+        if(tail)tail->next = n;
+        if(n)n->prev = tail;
+        return dfs(head);
+    }
+    
+    
+    Node* flatten(Node* head) {
+        dfs(head);
+        return head;
+    }
+}; 
+
+
+
+
+/*
+// Definition for a Node.
+class Node {
+public:
+    int val;
+    Node* prev;
+    Node* next;
+    Node* child;
+};
+*/
+
+class Solution {
+public:
     Node* dfs(Node *head){
         if(head->next == NULL && head->child == NULL)return head;
         if(head->next == NULL && head->child != NULL){
